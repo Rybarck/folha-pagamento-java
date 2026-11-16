@@ -50,4 +50,4 @@ Se o plugin `exec-maven-plugin` não estiver disponível, compile com `mvn packa
 
 Os testes cobrem validações, remuneração por categoria, polimorfismo, tributos, operações do repositório e serviço, sobrecarga de busca, exceções próprias e encerramento da interface. Para executá-los, use `mvn test`.
 
-Para demonstrar o ciclo Red, Green e Refactor no Git, mantenha commits pequenos: primeiro os testes de uma regra, depois a implementação mínima que os faz passar e, por fim, a refatoração sem alterar o comportamento. O histórico do GitHub deve ser criado no repositório da equipe e publicado pela própria conta.
+O histórico começa com os testes (Red) e segue com a implementação (Green). Continue com commits pequenos para registrar refatorações sem alterar o comportamento. Os testes cobrem as regras descritas acima; revise e amplie os casos conforme os critérios da equipe.
